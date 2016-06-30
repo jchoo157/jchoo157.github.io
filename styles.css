@@ -1,1 +1,39 @@
-body {background:yellow}
+body {background:#fff8dc}
+
+.border-red {
+	border: 5px dotted red;
+	padding: 20px;
+	margin: 20px;
+}
+
+.daft-punk {
+	margin: 20px;
+}
+
+footer {
+	padding: 30px;
+	margin-top: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+a:visited {
+	color:green;
+}
+
+.paper-background {
+	padding: 20px;
+	margin: 20px;
+	background-image: url("paper_texture.jpg");
+}
+
+#font-arial-black {
+	color: blue;
+	font-family: arial-black;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+
